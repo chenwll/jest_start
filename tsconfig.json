@@ -2,9 +2,14 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "utils/*":["src/utils/*"]
+      "utils/*": ["src/utils/*"],
+      "components/*": ["src/components/*"],
+      "apis/*": ["src/apis/*"],
+      "hooks/*": ["src/hooks/*"],
+      "store/*": ["src/store/*"]
     },
     "types":["node","jest"],
+    "jsx": "react",
     
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
