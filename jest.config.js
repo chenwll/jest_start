@@ -16,9 +16,11 @@ module.exports = {
   // Automatically clear mock calls, instances and results before every test
   preset:'ts-jest',
   clearMocks: true,
+  testEnvironment:"jsdom",
 
   // Indicates whether the coverage information should be collected while executing the test
   collectCoverage: true,
+  setupFilesAfterEnv: ['./tests/jest-setup.ts'],
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
   // collectCoverageFrom: undefined,
@@ -33,6 +35,7 @@ module.exports = {
 
   // Indicates which provider should be used to instrument code for coverage
   coverageProvider: "v8",
+  moduleDirectories:['node_modules','src'],
 
   // A list of reporter names that Jest uses when writing coverage reports
   // coverageReporters: [

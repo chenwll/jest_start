@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "utils/*":["src/utils/*"]
+    },
     "types":["node","jest"],
     
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
