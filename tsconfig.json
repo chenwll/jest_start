@@ -8,7 +8,7 @@
       "hooks/*": ["src/hooks/*"],
       "store/*": ["src/store/*"]
     },
-    "types":["node","jest"],
+    "types":["node","jest","@testing-library/jest-dom"],
     "jsx": "react",
     
     /* Visit https://aka.ms/tsconfig.json to read more about this file */

@@ -17,6 +17,10 @@ module.exports = {
   preset:'ts-jest',
   clearMocks: true,
   testEnvironment:"jsdom",
+    // ...
+  transform: {
+    ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"
+  } ,
 
   // Indicates whether the coverage information should be collected while executing the test
   collectCoverage: true,
