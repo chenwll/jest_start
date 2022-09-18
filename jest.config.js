@@ -16,7 +16,8 @@ module.exports = {
   // Automatically clear mock calls, instances and results before every test
   preset:'ts-jest',
   clearMocks: true,
-  testEnvironment:"jsdom",
+  // testEnvironment:"jsdom",
+  testEnvironment: 'jest-environment-jsdom-global',
     // ...
   transform: {
     ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "jest-transform-stub"

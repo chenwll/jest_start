@@ -1,3 +1,14 @@
 window.location
 defineProperty
 Record<string, string>
+
+UrlSearchParams的用法
+Object.definePropertyo
+jsdomo
+node环境和window环境: document/window
+浏览器:this = window
+node: this = global
+
+ts全局声明文件
+declare
+window.location.assign('https://www.baidu.com');

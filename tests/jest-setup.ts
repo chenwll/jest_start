@@ -1,5 +1,7 @@
 // tests/jest-setup.ts
 import '@testing-library/jest-dom'
+import "jest-location-mock";
+
 Object.defineProperty(global, 'localStorage', {
   value: {
     store: {} as Record<string, string>,

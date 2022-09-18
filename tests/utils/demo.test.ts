@@ -12,12 +12,12 @@ describe("runCallback", () => {
         console.log(func.mock);
     })
 
-    it('测试axios成功发送', async () => {
-        axios.get.mockResolvedValue({data:"hello"})
-        await getData().then((data) => {
-            expect(data).toBe('hello')
-        })
-    })
+    // it('测试axios成功发送', async () => {
+    //     axios.get.mockResolvedValue({data:"hello"})
+    //     await getData().then((data) => {
+    //         expect(data).toBe('hello')
+    //     })
+    // })
 })
 
 // mock属性
